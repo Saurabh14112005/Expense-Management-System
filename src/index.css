@@ -1,0 +1,100 @@
+/* Background */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  color: white;
+}
+
+/* Main Container */
+.container {
+  width: 90%;
+  max-width: 1100px;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 38px;
+}
+
+/* Grid Layout */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+/* Full width section */
+.full-width {
+  grid-column: span 2;
+}
+
+/* Card */
+.card {
+  background: rgba(255, 255, 255, 0.12);
+  padding: 25px;
+  border-radius: 18px;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.35);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Inputs */
+input, select {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+button {
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.add-btn {
+  background: #00c853;
+  color: white;
+}
+
+.delete-btn {
+  background: #d50000;
+  color: white;
+}
+
+/* Expense item */
+.expense-item {
+  background: rgba(255,255,255,0.08);
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .full-width {
+    grid-column: span 1;
+  }
+}
