@@ -1,16 +1,61 @@
-# React + Vite
+# 💰 Expense Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack Expense Management System built using React and Node.js that helps users track, manage, and analyze their daily expenses efficiently.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## React Compiler
+🚀 Live Project: Coming Soon  
+(Deploy on Vercel / Netlify to get live link)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 GitHub Repository
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔗 https://github.com/Saurabh14112005/Expense-Management-System
+
+---
+
+## 📖 Description
+
+The Expense Management System is a web-based application that allows users to manage their daily expenses in an organized way. Users can add, delete, filter, and visualize their expenses.
+
+This project is built using modern web technologies and follows a full-stack development approach.
+
+---
+
+## ✨ Features
+
+- ➕ Add new expenses  
+- ❌ Delete expenses  
+- 📊 Expense summary and analytics  
+- 📅 Filter expenses  
+- 📈 Visual charts for better understanding  
+- 💾 Data storage (Local / Backend)  
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend:
+- React.js  
+- JavaScript  
+- CSS  
+- Vite  
+
+### Backend:
+- Node.js  
+- Express.js  
+
+### Database:
+- MongoDB (if connected)
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Saurabh14112005/Expense-Management-System.git
+cd Expense-Management-System
